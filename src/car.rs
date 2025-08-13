@@ -2,6 +2,7 @@ use macroquad::prelude::*;
 
 // Car movement directions
 #[derive(Debug, PartialEq, Clone, Copy)]
+
 pub enum Direction {
     Top,
     Down,
